@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	int n;
+	cin>>n;
+	while(n--) {
+		int g, v1, v2, v3, acum = 0;
+		cin>>g;
+		while(g--) {
+			cin>>v1>>v2>>v3;
+			acum+= v1 * v3;
+		}
+		cout<<acum<<endl;
+		
+	}
+	return 0;
+}
